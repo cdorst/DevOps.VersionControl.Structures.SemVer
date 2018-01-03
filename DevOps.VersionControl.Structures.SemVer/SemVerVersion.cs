@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using static System.Convert;
+﻿using static System.Convert;
 
 namespace DevOps.VersionControl.Structures.SemVer
 {
