@@ -11,8 +11,8 @@ namespace DevOps.VersionControl.Structures.SemVer
         {
             var split = version.Split('.');
             Major = ToInt32(split[0]);
-            Minor = ToInt32(split[2]);
-            Patch = ToInt32(split[4]);
+            Minor = ToInt32(split[1]);
+            Patch = ToInt32(split[2]);
         }
 
         public SemVerVersion(int major, int minor, int patch)
